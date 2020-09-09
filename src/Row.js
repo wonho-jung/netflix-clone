@@ -72,7 +72,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
           />
         ))}
       </div>
-      {trailerUrl && <YouTube videoId={trailerUrl} opt={opts}></YouTube>}
+      {trailerUrl && <YouTube videoId={trailerUrl} opts={opts}></YouTube>}
     </div>
   );
 }
